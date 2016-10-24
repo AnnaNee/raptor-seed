@@ -1,0 +1,38 @@
+{
+  "name": "raptor-seed",
+  "version": "1.0.0",
+  "description": "A boilerplate seed for AngularJS, Gulp and SASS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AnnaNee/raptor-seed.git"
+  },
+  "keywords": [
+    "raptor",
+    "seed",
+    "angular",
+    "gulp",
+    "boilerplate"
+  ],
+  "author": "Anna Flávia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaNee/raptor-seed/issues"
+  },
+  "homepage": "https://github.com/AnnaNee/raptor-seed#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-serve": "^1.4.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
