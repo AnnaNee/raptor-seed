@@ -1,14 +1,14 @@
 {
-  "name": "raptor-seed",
+  "name": "phaser-project",
   "version": "1.0.0",
-  "description": "A boilerplate seed for AngularJS, Gulp and SASS.",
+  "description": "This is a sample Phaser project using Raptor Seed boilerplate.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AnnaNee/raptor-seed.git"
+    "url": "git+ssh://git@github.com/AnnaNee/phaser-project.git"
   },
   "keywords": [
     "raptor",
@@ -20,7 +20,7 @@
   "author": "Anna Flávia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnnaNee/raptor-seed/issues"
+    "url": "https://github.com/AnnaNee/phaser-project/issues"
   },
   "homepage": "https://github.com/AnnaNee/raptor-seed#readme",
   "devDependencies": {

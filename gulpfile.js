@@ -51,7 +51,16 @@ gulp.task('mainJs', function () {
   return mainJs();
 });
 
-gulp.task("watch", ["html", "css", "js", "controllers", "mainJs"], function() {
+function libraries() {
+  return gulp.src('app/lib/**/*.js')
+  .pipe(gulp.dest('public/lib'));
+}
+
+gulp.task('libraries', function () {
+  return libraries();
+});
+
+gulp.task("watch", ["html", "css", "js", "controllers", "mainJs", "libraries"], function() {
     gulp.watch("app/assets/**", function () {
         css();
     });
@@ -63,6 +72,9 @@ gulp.task("watch", ["html", "css", "js", "controllers", "mainJs"], function() {
     });
     gulp.watch("app/**", function () {
         mainJs();
+    });
+    gulp.watch("app/lib/**", function () {
+        libraries();
     });
     gulp.watch("public/**", function () {
         browserSync.reload();
